@@ -1,6 +1,6 @@
 # UDI - Utils Docker Image
 
-	An image to help with debugging.
+	A docker image to help with debugging neighboring services.
 
 ## ToDo
 
@@ -15,3 +15,4 @@
 * 180509
 
 	* 1530	Built a basic image, with python2 and boom (for stress testing).
+	* 1610	Bug fixed: The container was exiting, due to completion.

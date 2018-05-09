@@ -33,11 +33,11 @@ while getopts 'hs' OPTION; do
 	esac
 done
 
-docker build -t viswanathct/dui .
+docker build -t viswanathct/udi .
 
 if [ "$skipPushing" != "n" ]
 then
 
-  docker push viswanathct/dui
+  docker push viswanathct/udi
 
 fi

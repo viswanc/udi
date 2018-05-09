@@ -22,3 +22,5 @@ RUN pip install --upgrade pip
 RUN pip install boom # For stress testing.
 
 # #Note: Though the build dependencies (like linux-headers) could be removed, to save space. They aren't removed, so to allow for run-time installation of python libraries.
+
+CMD while true; do sleep 1000; done # Prevent the container from exiting.
